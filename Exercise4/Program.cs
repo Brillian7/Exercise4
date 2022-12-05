@@ -37,7 +37,12 @@ namespace Exercise4
             fresh.next = top;
             top = fresh;
             Console.WriteLine("\n" + element + "pushed"); ;
-    }
+        }
+        public void pop()
+        {
+            Console.WriteLine("\n The poped element is: "+ top.info);
+            top = top.next;
+        }
     }
   
     internal class Program
