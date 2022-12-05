@@ -12,6 +12,15 @@ namespace Exercise4
         public node next;
         public node(int i,node n)
         {
+            info = i;
+            next = n;
+        }
+    }
+    class stack
+    {
+        node top;
+        public stack()
+        {
 
         }
     }
