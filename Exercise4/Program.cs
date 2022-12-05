@@ -59,7 +59,12 @@ namespace Exercise4
         static void Main(string[] args)
         {
             stack s = new stack();
-
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n********Stack Menu********\n");
+               
+            }
         }
     }
 }
