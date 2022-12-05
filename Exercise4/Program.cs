@@ -10,6 +10,7 @@ namespace Exercise4
     {
         public int info;
         public node next;
+        private int[] brill = new int[21];
         public node(int i,node n)
         {
             info = i;
@@ -69,7 +70,7 @@ namespace Exercise4
                 Console.WriteLine("4. Exit ");
                 Console.Write("\nEnter your choice: ");
                 string input = Console.ReadLine();
-                char ch = Convert.ToChar(input == "" ? "0" : input);
+                char ch = Convert.ToChar(input == "" ? "7" : input);
                 switch (ch)
                 {
                     case '1':
